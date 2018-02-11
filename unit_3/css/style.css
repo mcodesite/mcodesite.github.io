@@ -1,0 +1,96 @@
+*
+{
+ margin: 0;
+    padding: 0;
+    
+}
+
+
+header{
+    background-image: url(cover.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar{
+    background: rgb(0, 0, 0, 0.5);
+    height: 80px;
+}
+
+
+.logo{
+    margin: 10px 50px;
+    height: 100px;
+    
+}
+
+.menu{
+    float: right;
+    list-style: none;
+      margin: 20px;  
+}
+
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    
+}
+
+.welcome{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    top: 160px;
+    
+}
+
+.welcome h1{
+    font-family: montserrat, sans-serif;
+    font-size: 88px;
+    font-weight:300;
+    padding: 2px;
+    color: #fff;
+    margin: 5px
+    
+}
+
+.welcome h2{
+    font-family: montserrat, sans-serif;
+    font-size: 32px;
+    font-weight:100;
+    color: #fff;
+    padding: 20px;
+    
+} 
+
+.btn{
+    font-size: 15px;
+    padding: 7px 10px;
+    text-decoration: none;
+    margin: 100px;
+    border: 1px solid #fff;
+    
+}
+
+.btn1{
+    font-family: montserrat, sans-serif;
+    color: #fff;
+    
+}
+
+.btn1:hover{
+    background: #fff;
+    color: #000;
+    transition: .4s;
+    
+}
