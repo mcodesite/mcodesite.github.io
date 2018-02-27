@@ -117,13 +117,15 @@ header{
     font-weight: 200;
     line-height: 1.5em;
     color: gray;
-
 }
 
+.me img {
+
+}
     
 }
 
-.work h2 {
+work h2 {
     
    font-family: montserrat, sans-serif;
     font-size: 32px;
