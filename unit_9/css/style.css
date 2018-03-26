@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+html{
+  overflow-x: hidden;
+}
+body {
+font-family: montserrat, sans-serif;
+font-size: 16px;
+font-weight: 200;
+line-height: 1.5em;
+color: gray;
+}
+
+section {
+padding:4em 0;
+}
+
+.welcome{
+background-image: url(../images/cover.jpg);
+height: 90vh;
+background-size: cover;
+background-position: center;
+}
+
+.nav-bar{
+background: rgb(0, 0, 0, 0.5);
+/* height: 80px; */
+width: 100%;
+float: left;
+font-family: montserrat, sans-serif;
+border:none;
+}
+.navbar-brand{
+  height: auto;
+}
+.navbar-nav  li a{
+  color: #fff !important;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.navbar-toggle{
+  margin-top:8%;
+  border: none;
+  cursor: pointer;
+}
+.navbar-toggle .icon-bar{
+  background: #fff !important;
+  width: 30px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+      background: none;
+}
+.ourwork img{
+    float: left;
+    padding: .5em;
+    padding-top: 50px
+    height:300px;
+    width: 100%;
+}
+
+.menu{
+float: right;
+list-style: none;
+margin: 20px;
+}
+
+nav a {
+display:inline-block;
+padding:1em;
+color:#fff;
+text-decoration:none;
+}
+
+.menu li{
+display: block;
+margin: 10px 5px;
+}
+
+.menu li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 10px;
+font-family: montserrat, sans-serif;
+font-weight: 200;
+}
+
+.welcome{
+text-align: center;
+color: #fff;
+}
+
+h1{
+font-family: montserrat, sans-serif;
+font-size: 68px;
+font-weight:300;
+color: #fff;
+line-height: 1em;
+}
+
+h2{
+font-family: montserrat, sans-serif;
+font-size: 32px;
+font-weight:300;
+color: #000000;
+padding: 20px;
+}
+
+.btn{
+font-size: 15px;
+padding: 7px 10px;
+text-decoration: none;
+margin: 100px 0 0;
+border: 1px solid #fff;
+display: inline-block;
+}
+
+.btn1{
+font-family: montserrat, sans-serif;
+color: #fff;
+
+}
+
+.btn1:hover{
+background: #fff;
+color: #000;
+transition: .4s;
+
+}
+
+.ourstory {
+    margin: auto;
+    position: relative;
+
+}
+.border{
+  width: 100%;
+  border-bottom: #acd03a .15em solid;
+  bottom: 0px;
+  position: absolute;
+  left: 0;
+}
+.ourstory h2{
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+
+.testimonials {
+margin: auto;
+text-align: center;
+
+}
+
+.testimonials img {
+display: block !important;
+margin: auto;
+width: 80%;
+}
+img.float_left {
+float: left;
+padding-right: 2em;
+}
+
+.ourwork {
+    clear: both;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.padding_margin0{
+  padding: 0px;
+  margin: 0px;
+}
+.contectus {
+    background-color: #3d3d3d;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    border: none;
+}
+
+.contectus img {
+    width: 40%;
+    display: block;
+    margin:0 auto;
+    padding: 0px;
+
+}
+
+
+footer {
+  padding-top: 50px;
+max-width: auto;
+text-align: center;
+}
+
+.clearfix:after {
+display:block;
+content:"";
+clear:both;
+}
+
+
+@media (max-width: 800px) {
+  .nav-bar{
+    background: none;
+  }
+header { text-align:center; }
+
+    #wrapper{ width: 90%}
+.menu {
+float:none;
+}
+nav a {
+
+margin: 0 1.6em .75em 0;
+
+}
+.navbar-brand img {
+width: 4em;
+}
+nav a {
+margin: 0 1.6em .75em 0;
+}
+
+.welcome h1{
+  font-size: 20px;
+  margin-top: 20vh;
+  font-weight: bold;
+  line-height: 30px;
+}
+.welcome h1 span{
+  font-size: 68px;
+  margin-bottom: 20px;
+}
+.ourstory {
+  text-align: center;
+}
+.ourwork img{
+  padding: 5px;
+}
+footer {
+    background-color: #3d3d3d;
+    margin-top: -25px;
+    color: #fff;
+    padding-bottom: 50px;
+  }
+  .cutext p{
+    padding-bottom:100px;
+  }
+  .contectus img {
+      width: 80%;
+      margin-top: -100px;
+
+  }
+  .ourstory, .ourwork, .testimonials{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px 40px;
+  }
+  .border{
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .btn1{
+    background: #01BCF3;
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    padding:5px 10px;
+  }
+
+  .welcome svg{
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+  }
+  .svg-inline--fa.fa-w-10 {
+    width: 50px;
+}
+}
